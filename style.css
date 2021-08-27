@@ -1,0 +1,60 @@
+body,
+html{
+    height: 100%;
+    width: 100%;
+    background: url(header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* #bttn{
+    position: fixed;
+    bottom: 30%;
+    left: 44%;
+    background-color: red;
+    color: white;
+    border-radius: 300px;
+    font-size: 20px;
+    font-weight: 700rem;
+    border-color: red;
+} */
+
+.btn-primary{
+    position: fixed;
+    bottom: 30%;
+    left: 44%;
+    background-color: red;
+    color: white;
+    border-radius: 300px;
+    font-size: 20px;
+    font-weight: 700rem;
+    border-color: red;
+}
+h1{
+    /* position: absolute;
+    bottom: 64%;
+    left: 15%; */
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.bttn-xl{
+    padding: 1rem 2rem;
+}
+
+.btn-primary:hover{
+    background-color: #ee4b08;
+    border-color: #ee4b08;
+    border-width: 4px;
+    
+}
+hr{
+    background-color: red;
+    border-width: 3rem;
+    max-width: 65px;
+}
+.buffer{
+    height: 50px;
+}
